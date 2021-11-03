@@ -1,6 +1,6 @@
 baseurl: "https://python4microbiodatabrazil2022.netlify.app/"
 languageCode: en-us
-title: A Hugo website
+title: 2º Workshop de Python para Dados de Microbiologia
 theme: hugo-lithium
 googleAnalytics: ''
 disqusShortname: ''
@@ -10,16 +10,35 @@ ignoreFiles:
   - _cache$
   - \.knit\.md$
   - \.utf8\.md$
-permalinks:
-  post: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: About
+  - name: Sobre o workshop
       url: /about/
-    - name: GitHub
-      url: https://github.com/rstudio/blogdown
+      weight: 1
+    - name: Equipe
+      url: /team/
+      weight: 2
+    - name: Critérios de Seleção
+      url: /criteria/
+      weight: 3
+    - name: Apoio e Patrocínio
+      url: /sponsors/
+      weight: 4
+    - name: Edição anterior (2021)
+      url: https://python-for-microbiology-data-brazil.gitlab.io/sitepythonmicrobiodata2021/index.html
+      weight: 5
+    - name: Programação da edição 2022
+      url: /schedule/
+      weight: 6
+    - name: Palestrantes
+      url: /talks/
+      weight: 7
     - name: Twitter
-      url: https://twitter.com/rstudio
+      url: https://twitter.com/pythonmicrobra1
+      weight: 8
+    - name: Instagram
+      url: https://www.instagram.com/pythonmicrobrazil
+      weight: 9
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
