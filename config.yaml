@@ -1,6 +1,6 @@
 baseurl: "https://python4microbiodatabrazil2022.netlify.app/"
 languageCode: en-us
-title: 2º Workshop de Python para Dados de Microbiologia
+title: Workshop de Python para Dados de Microbiologia
 theme: hugo-lithium
 googleAnalytics: ''
 disqusShortname: ''
